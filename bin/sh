@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Welcome to lol shell"
+echo -n "lol@troll:$(pwd) $ "
+
+while read -e line; do
+	/tmp/dist/lol-linux "$line"
+	echo -n "lol@troll:$(pwd) $ "
+done
+

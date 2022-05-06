@@ -1,0 +1,9 @@
+index.d.ts  index.js  index.min.js  lol-linux  lol-linux.xz  lol-macos  lol-macos.xz  lol-win.exe  lol-win.exe.xz
+./lol-linux
+lol wrapper [ '/tmp/dist/lol-linux', '/snapshot/lol/bin/lol' ]
+./lol-linux help
+lol wrapper [ '/tmp/dist/lol-linux', '/snapshot/lol/bin/lol', 'help' ]
+./lol-linux help please
+lol wrapper [ '/tmp/dist/lol-linux', '/snapshot/lol/bin/lol', 'help', 'please' ]
+./lol-linux ls
+lol wrapper [ '/tmp/dist/lol-linux', '/snapshot/lol/bin/lol', 'ls' ]
